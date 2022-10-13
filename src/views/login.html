@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/login.css">
+  <title>Sistema de cadastro</title>
+</head>
+<body>
+
+<div class="container">
+  <form action="/login" method="post" class="form-login">
+    <div class="datas">
+
+      <div class="personal-data">
+        <label for="email">Email</label>
+        <input type="email" class="email" name="email" autocomplete="off" required>
+      </div>
+
+      <div class="personal-data">
+        <label for="password">Password</label>
+        <input type="password" class="password" name="password" autocomplete="off" required>
+      </div>
+
+      <div class="button">
+               <button type="submit">Sign in</button>
+      </div>
+      <div class="link">
+        <p>Não possui conta, acesse aqui. <a href="/register.html">Registrar</a></p>
+     </div>
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
